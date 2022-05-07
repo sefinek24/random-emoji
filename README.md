@@ -8,12 +8,19 @@ Returns a random emoticon and its name and type. 🐈 🐱 🙀
 ```js
 const random = require('@sefinek/random-emoji');
 
-// emoji()
-const { name, content, type } = random.emoji();
-console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`); // Name: Cat Face; Type: animal; Emoji: 🐱;
+// 1. Random emoji with name and type
+const emoji = random.emojis();
+console.log(`Name: ${emoji.name}; Type: ${emoji.type}; Emoji: ${emoji.content};`);
+// => Name: Cat Face; Type: animal; Emoji: 🐱;
 
-// unicode()
-console.log(random.unicode()); // 🥰
+// 2. A single emote
+console.log(unicode());
+// => 🥰
+
+// 3. Random cats
+const cat = cats();
+console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`);
+// => Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
 ```
 
 ## 🤝 » Help
