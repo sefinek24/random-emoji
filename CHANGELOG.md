@@ -5,10 +5,6 @@
 - emoji()
 + emojis()
 ```
-```diff
-- emoji()
-+ emojis()
-```
 
 ## Version v0.1.0
 First release.
