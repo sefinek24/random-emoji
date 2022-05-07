@@ -25,9 +25,9 @@ console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`
 
 ## 😻 • Functions list
 ```js
-emojis() // Random emoji with name and type
+emojis()  // Random emoji with name and type
 unicode() // A single emote
-cats() // Return random cats
+cats()    // Return random cats
 ```
 
 ## 📝 • Changelog
