@@ -6,10 +6,12 @@ Returns a random emoticon and its name and type. 🐈 🐱 🙀
 
 ## 📝 » Example
 ```js
-const emoji = require('@sefinek/random-emoji');
+const random = require('@sefinek/random-emoji');
 
-const { name, content, type } = emoji();
+const { name, content, type } = random.emoji();
 console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`); // Name: Cat Face; Type: animal; Emoji: 🐱;
+
+console.log(random.unicode()); // 🥰
 ```
 
 ## 🤝 » Help

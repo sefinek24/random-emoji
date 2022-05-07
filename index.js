@@ -1,3 +1,5 @@
-const { emojis } = require('./emojis.json');
+const { emojis } = require('./json/emoji.json');
+const unicode = require('./json/unicode.json');
 
-module.exports = () => emojis[Math.floor(Math.random() * emojis.length)];
+exports.emoji = () => emojis[Math.floor(Math.random() * emojis.length)];
+exports.unicode = () => unicode[Math.floor(Math.random() * unicode.length)];

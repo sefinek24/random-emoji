@@ -1,4 +1,6 @@
-const emoji = require('./index.js');
+const { emoji, unicode } = require('./index.js');
 
-const { name, content, type } = emoji();
+const { name, type, content } = emoji();
 console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`);
+
+console.log(unicode());
