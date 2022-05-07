@@ -6,7 +6,7 @@ Returns a random emoji... 🐈 🐱 🙀
 
 ## 📝 » Example
 ```js
-const emoji = require('./index.js');
+const emoji = require('@sefinek24/random-emoji');
 
 const { name, content, type } = emoji();
 console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`);
