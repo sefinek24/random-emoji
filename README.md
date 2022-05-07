@@ -4,13 +4,15 @@ Returns a random emoticon and its name and type. 🐈 🐱 🙀
 ## 📥 » How to install?
 > **$** npm install @sefinek/random-emoji
 
-## 📝 » Example
+## 📝 » Examples
 ```js
 const random = require('@sefinek/random-emoji');
 
+// emoji()
 const { name, content, type } = random.emoji();
 console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`); // Name: Cat Face; Type: animal; Emoji: 🐱;
 
+// unicode()
 console.log(random.unicode()); // 🥰
 ```
 
