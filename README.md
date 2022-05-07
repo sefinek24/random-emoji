@@ -1,12 +1,12 @@
 ## ⭐ » Information
-Returns a random emoji... 🐈 🐱 🙀
+Returns a random emoticon and its name and type. 🐈 🐱 🙀
 
-## ✨ » How to install?
-> **$** npm install @sefinek24/random-emoji
+## 📥 » How to install?
+> **$** npm install @sefinek/random-emoji
 
 ## 📝 » Example
 ```js
-const emoji = require('@sefinek24/random-emoji');
+const emoji = require('@sefinek/random-emoji');
 
 const { name, content, type } = emoji();
 console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`); // Name: Cat Face; Type: animal; Emoji: 🐱;
