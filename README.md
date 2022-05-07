@@ -9,7 +9,7 @@ Returns a random emoji... 🐈 🐱 🙀
 const emoji = require('@sefinek24/random-emoji');
 
 const { name, content, type } = emoji();
-console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`);
+console.log(`Name: ${name}; Type: ${type}; Emoji: ${content};`); // Name: Cat Face; Type: animal; Emoji: 🐱;
 ```
 
 ## 🤝 » Help
