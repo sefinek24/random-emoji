@@ -1,10 +1,10 @@
-## ⭐ » Information
+## ⭐ • Information
 Returns a random emoticon and its name and type. 🐈 🐱 🙀
 
-## 📥 » How to install?
+## 📥 • How to install?
 > **$** npm install @sefinek/random-emoji
 
-## 📝 » Examples
+## 📝 • Examples
 ```js
 const random = require('@sefinek/random-emoji');
 
@@ -23,12 +23,12 @@ console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`
 // Output » Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
 ```
 
-## 😻 » Functions list
+## 😻 • Functions list
 ```js
 emojis() // Random emoji with name and type
 unicode() // A single emote
 cats() // Return random cats
 ```
 
-## 🤝 » Help
+## 🤝 • Help
 Open new <a href="https://github.com/sefinek24/random-emoji/issues/new/choose" target="_blank">Issue</a> on Github.
