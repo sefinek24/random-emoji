@@ -1,6 +1,6 @@
 {
   "name": "@sefinek/random-emoji",
-  "version": "1.1.0",
+  "version": "1.0.0",
   "description": "Returns a random emoticon and its name and type.",
   "main": "index.js",
   "scripts": {
