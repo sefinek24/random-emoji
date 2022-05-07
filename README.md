@@ -11,16 +11,16 @@ const random = require('@sefinek/random-emoji');
 // 1. Random emoji with name and type
 const emoji = random.emojis();
 console.log(`Name: ${emoji.name}; Type: ${emoji.type}; Emoji: ${emoji.content};`);
-// => Name: Cat Face; Type: animal; Emoji: 🐱;
+// Output » Name: Cat Face; Type: animal; Emoji: 🐱;
 
 // 2. A single emote
 console.log(unicode());
-// => 🥰
+// Output » 🥰
 
 // 3. Random cats
 const cat = cats();
 console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`);
-// => Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
+// Output » Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
 ```
 
 ## 🤝 » Help
