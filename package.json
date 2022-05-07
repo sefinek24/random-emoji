@@ -1,0 +1,26 @@
+{
+  "name": "random-emoji",
+  "version": "1.0.0",
+  "description": "Returns a random emoji.",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/random-emoji.git"
+  },
+  "keywords": [
+    "random",
+    "emoji",
+    "emoticon",
+    "name",
+    "type"
+  ],
+  "author": "Sefinek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sefinek24/random-emoji/issues"
+  },
+  "homepage": "https://github.com/sefinek24/random-emoji#readme"
+}
