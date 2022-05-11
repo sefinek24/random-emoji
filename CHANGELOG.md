@@ -1,4 +1,4 @@
-## 📥・Version v1.1.0 (STABLE)
+## 📥・Version v1.1.1 (STABLE)
 **1.** Added new function `hearts()` with random cat hearts.
 
 ## 📥・Version v1.0.1
