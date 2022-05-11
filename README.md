@@ -16,19 +16,24 @@
 ```js
 const random = require('@sefinek/random-emoji');
 
-// 1. Random emoji with name and type
+// 1. A single emote
+console.log(unicode());
+// Output » 🥰
+
+// 2. Random emoji with name and type
 const emoji = random.emojis();
 console.log(`Name: ${emoji.name}; Type: ${emoji.type}; Emoji: ${emoji.content};`);
 // Output » Name: Cat Face; Type: animal; Emoji: 🐱;
-
-// 2. A single emote
-console.log(unicode());
-// Output » 🥰
 
 // 3. Random cats
 const cat = cats();
 console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`);
 // Output » Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
+
+// 4. Random hearts
+const heart = hearts();
+console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.content};`);
+// Output » Name: blue_heart; Slashes: \\💙; Emoji: 💙;
 ```
 
 ## 😻 • Functions list
@@ -36,6 +41,7 @@ console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`
 emojis()  // Random emoji with name and type
 unicode() // A single emote
 cats()    // Return random cats
+hearts()  // Return random hearts
 ```
 
 ## 📝 • Changelog
