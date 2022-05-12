@@ -1,6 +1,7 @@
 ## 📥・v1.2.0 (12.05.2022)
 1. Updated CHANGELOG.md, README.md and package.json.
 2. Added new function `circles()` with random circles.
+3. Removed `.slashes`.
 
 ## 📥・v1.1.1 (11.05.2022)
 1. Added new function `hearts()` with random hearts.

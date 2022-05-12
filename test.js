@@ -5,16 +5,16 @@ console.log(unicode());
 
 // Random emoji with name and type
 const emoji = emojis();
-console.log(`Name: ${emoji.name}; Type: ${emoji.type}; Emoji: ${emoji.content};`);
+console.log(`Name: ${emoji.name}; Emoji: ${emoji.content};`);
 
 // Random cats
 const cat = cats();
-console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`);
+console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 
 // Random hearts
 const heart = hearts();
-console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.content};`);
+console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 
 // Random hearts
 const circle = circles();
-console.log(`Name: ${circle.name}; Slashes: ${circle.slashes}; Emoji: ${circle.content};`);
+console.log(`Name: ${circle.name}; Emoji: ${circle.content};`);

@@ -24,23 +24,23 @@ console.log(unicode());
 
 // 2. Random emoji with name and type
 const emoji = random.emojis();
-console.log(`Name: ${emoji.name}; Type: ${emoji.type}; Emoji: ${emoji.content};`);
+console.log(`Name: ${emoji.name}; Emoji: ${emoji.content};`);
 // > Name: Cat Face; Type: animal; Emoji: 🐱;
 
 // 3. Random cat
 const cat = random.cats();
-console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`);
-// > Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
+console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
+// > Name: smiley_cat; Emoji: 😺;
 
 // 4. Random heart
 const heart = random.hearts();
-console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.content};`);
-// > Name: blue_heart; Slashes: \\💙; Emoji: 💙;
+console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
+// > Name: blue_heart; Emoji: 💙;
 
 // 5. Random circle
 const circle = random.circles();
-console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.content};`);
-// > Name: blue_heart; Slashes: \\💙; Emoji: 💙;
+console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
+// > Name: blue_heart; Emoji: 💙;
 ```
 
 ## 😻 • Usage
