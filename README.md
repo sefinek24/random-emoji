@@ -40,7 +40,7 @@ console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 // 5. Random circle
 const circle = random.circles();
 console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
-// > Name: blue_heart; Emoji: 💙;
+// > Name: blue_circle; Emoji: 🔵;
 ```
 
 ## 😻 • Usage
