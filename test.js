@@ -15,6 +15,6 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 const heart = hearts();
 console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 
-// Random hearts
+// Random circles
 const circle = circles();
 console.log(`Name: ${circle.name}; Emoji: ${circle.content};`);
