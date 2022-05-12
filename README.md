@@ -14,7 +14,7 @@
 ## 📥 • Installation
 > **$** npm install @sefinek/random-emoji
 
-## 😼 • Usage
+## 😼 • Examples
 ```js
 const random = require('@sefinek/random-emoji');
 
@@ -43,7 +43,7 @@ console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.cont
 // > Name: blue_heart; Slashes: \\💙; Emoji: 💙;
 ```
 
-## 😻 • Functions list
+## 😻 • Usage
 ```js
 emojis()  // Random emoji with name and type
 unicode() // A single emote
