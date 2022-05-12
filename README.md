@@ -27,13 +27,18 @@ const emoji = random.emojis();
 console.log(`Name: ${emoji.name}; Type: ${emoji.type}; Emoji: ${emoji.content};`);
 // > Name: Cat Face; Type: animal; Emoji: 🐱;
 
-// 3. Random cats
+// 3. Random cat
 const cat = random.cats();
 console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`);
 // > Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
 
-// 4. Random hearts
+// 4. Random heart
 const heart = random.hearts();
+console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.content};`);
+// > Name: blue_heart; Slashes: \\💙; Emoji: 💙;
+
+// 5. Random circle
+const circle = random.circles();
 console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.content};`);
 // > Name: blue_heart; Slashes: \\💙; Emoji: 💙;
 ```
@@ -42,8 +47,9 @@ console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.cont
 ```js
 emojis()  // Random emoji with name and type
 unicode() // A single emote
-cats()    // Return random cats
-hearts()  // Return random hearts
+cats()    // Return random cat
+hearts()  // Return random heart
+circles() // Return random circle
 ```
 
 ## 📝 • Changelog

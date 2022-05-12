@@ -1,5 +1,6 @@
-## 📥・v1.1.2 (12.05.2022)
+## 📥・v1.2.0 (12.05.2022)
 1. Updated CHANGELOG.md, README.md and package.json.
+2. Added new function `circle()` with random cat hearts.
 
 ## 📥・v1.1.1 (11.05.2022)
 1. Added new function `hearts()` with random cat hearts.

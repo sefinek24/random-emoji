@@ -1,0 +1,47 @@
+[
+  {
+    "content": "🔴",
+    "slashes": "🔴",
+    "name": "red_circle"
+  },
+  {
+    "content": "🟠",
+    "slashes": "🟠",
+    "name": "orange_circle"
+  },
+  {
+    "content": "🟡",
+    "slashes": "🟡",
+    "name": "yellow_circle"
+  },
+  {
+    "content": "🟢",
+    "slashes": "🟢",
+    "name": "green_circle"
+  },
+  {
+    "content": "🔵",
+    "slashes": "🔵",
+    "name": "blue_circle"
+  },
+  {
+    "content": "🟣",
+    "slashes": "🟣",
+    "name": "purple_circle"
+  },
+  {
+    "content": "🟤",
+    "slashes": "🟤",
+    "name": "brown_circle"
+  },
+  {
+    "content": "⚫",
+    "slashes": "⚫",
+    "name": "black_circle"
+  },
+  {
+    "content": "⚪",
+    "slashes": "⚪",
+    "name": "white_circle"
+  }
+]
