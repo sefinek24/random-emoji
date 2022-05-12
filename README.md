@@ -9,31 +9,31 @@
     <img src="https://img.shields.io/tokei/lines/github/sefinek24/random-emoji" alt="Total lines">
 </a>
 
-## 📥 • How to install?
+## 📥 • Installation
 > **$** npm install @sefinek/random-emoji
 
-## 😼 • Examples
+## 😼 • Usage
 ```js
 const random = require('@sefinek/random-emoji');
 
 // 1. A single emote
 console.log(unicode());
-// Output » 🥰
+// > 🥰
 
 // 2. Random emoji with name and type
 const emoji = random.emojis();
 console.log(`Name: ${emoji.name}; Type: ${emoji.type}; Emoji: ${emoji.content};`);
-// Output » Name: Cat Face; Type: animal; Emoji: 🐱;
+// > Name: Cat Face; Type: animal; Emoji: 🐱;
 
 // 3. Random cats
-const cat = cats();
+const cat = random.cats();
 console.log(`Name: ${cat.name}; Slashes: ${cat.slashes}; Emoji: ${cat.content};`);
-// Output » Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
+// > Name: smiley_cat; Slashes: \\😺; Emoji: 😺;
 
 // 4. Random hearts
-const heart = hearts();
+const heart = random.hearts();
 console.log(`Name: ${heart.name}; Slashes: ${heart.slashes}; Emoji: ${heart.content};`);
-// Output » Name: blue_heart; Slashes: \\💙; Emoji: 💙;
+// > Name: blue_heart; Slashes: \\💙; Emoji: 💙;
 ```
 
 ## 😻 • Functions list
@@ -45,7 +45,7 @@ hearts()  // Return random hearts
 ```
 
 ## 📝 • Changelog
-> <a href="https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md" target="_blank">https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md</a>
+> <a href="https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md" target="_blank" title="random-emoji/CHANGELOG.md at main · sefinek24/random-emoji">https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md</a>
 
 ## 🤝 • Help
 Open new <a href="https://github.com/sefinek24/random-emoji/issues/new/choose" target="_blank">Issue</a> on Github.  
