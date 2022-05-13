@@ -1,6 +1,6 @@
 <div align="center">
     <h1>About this package</h1>
-    <p>Returns a random emoticon, its name and type. 🐱 🙀 ❤️</p>
+    <p>Returns a random emoticon, its name and type. 🐱 🙀 🐈️</p>
     <a href="https://www.npmjs.com/package/@sefinek/random-emoji" target="_blank" title="random-emoji - npm" style="text-decoration:none">
         <img src="https://img.shields.io/npm/dt/@sefinek/random-emoji.svg?maxAge=3600" alt="The number of downloads">
         <img src="https://img.shields.io/github/issues/sefinek24/random-emoji" alt="Issues">
@@ -58,4 +58,5 @@ console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 ## 🤝 • Help
 Open new <a href="https://github.com/sefinek24/random-emoji/issues/new/choose" target="_blank">Issue</a> on Github.  
   
-### Thank you ❤️
+## ⭐ • Thank you
+Give a <a href="https://github.com/sefinek24/random-emoji" target="_blank">star</a> if you can.
