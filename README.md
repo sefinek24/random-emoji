@@ -87,13 +87,13 @@ kaomoji.love().then(data => console.log(data));
 ```
 
 ### » Kaomoji endpoints
-| Function                                              | Example                         |
-|-------------------------------------------------------|---------------------------------|
-| [cat](https://api.skiffybot.xyz/api/v1/kaomoji/cat)   | Random emoji with name and type |
-| [dog](https://api.skiffybot.xyz/api/v1/kaomoji/dog)   | A single emote                  |
-| [owo](https://api.skiffybot.xyz/api/v1/kaomoji/owo)   | Return random cat               |
-| [uwu](https://api.skiffybot.xyz/api/v1/kaomoji/uwu)   | Return random heart             |
-| [love](https://api.skiffybot.xyz/api/v1/kaomoji/love) | Return random circle            |
+| Function                                              | Example   |
+|-------------------------------------------------------|-----------|
+| [cat](https://api.skiffybot.xyz/api/v1/kaomoji/cat)   | (=^-ω-^=) |
+| [dog](https://api.skiffybot.xyz/api/v1/kaomoji/dog)   | ଘ(∪・ﻌ・∪)ଓ |
+| [owo](https://api.skiffybot.xyz/api/v1/kaomoji/owo)   | 𝓞𝔀𝓞    |
+| [uwu](https://api.skiffybot.xyz/api/v1/kaomoji/uwu)   | 𝕌𝕨𝕌    |
+| [love](https://api.skiffybot.xyz/api/v1/kaomoji/love) | ヽ(♡‿♡)ノ   |
 
 ## 📝 • Changelog
 > <a href="https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md" target="_blank" title="random-emoji/CHANGELOG.md at main · sefinek24/random-emoji">https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md</a>
