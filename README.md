@@ -1,6 +1,6 @@
 <div align="center">
     <h1>🐱 About this package 🙀</h1>
-    <p>Returns a random emoticon, its name and type.</p>
+    <p>Returns a random emoticons (name, type) and kaomojis.</p>
     <a href="https://www.npmjs.com/package/@sefinek/random-emoji" target="_blank" title="random-emoji - npm" style="text-decoration:none">
         <img src="https://img.shields.io/npm/dt/@sefinek/random-emoji.svg?maxAge=3600" alt="The number of downloads">
         <img src="https://img.shields.io/github/issues/sefinek24/random-emoji" alt="Issues">
@@ -44,17 +44,17 @@ console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 ```
 
 ## 😻 • Usage
-| Function                                                                      | Description                                                  |
-|-------------------------------------------------------------------------------|--------------------------------------------------------------|
-| emojis                                                                        | Random emoji with name and type                              |
-| unicode                                                                       | A single emote                                               |
-| cats                                                                          | Return random cat                                            |
-| hearts                                                                        | Return random heart                                          |
-| circles                                                                       | Return random circle                                         |
-| [new kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis) | Return random kaomojis from [API](https://api.skiffybot.xyz) |
+| Function                                                                          | Description                                                  |
+|-----------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [emojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)           | Random emoji with name and type                              |
+| [unicode](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)          | A single emote                                               |
+| [cats](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)             | Return random cat                                            |
+| [hearts](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)           | Return random heart                                          |
+| [circles](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)          | Return random circle                                         |
+| [**new** kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis) | Return random kaomojis from [API](https://api.skiffybot.xyz) |
 
 ## ⛩️ • Kaomojis
-Await/async example
+### » Async/await example
 ```js
 const random = require('@sefinek/random-emoji');
 const kaomoji = new random.kaomojis();
@@ -67,7 +67,7 @@ async function example() {
 example(); // Execute function
 ```
 
-Promise example
+### » Promise example
 ```js
 const random = require('@sefinek/random-emoji');
 const kaomoji = new random.kaomojis();
@@ -75,7 +75,7 @@ const kaomoji = new random.kaomojis();
 kaomoji.love().then(data => console.log(data));
 ```
 
-The returned object
+### » The returned object from [API](https://api.skiffybot.xyz)
 ```json
 {
   "success": true,
@@ -85,6 +85,15 @@ The returned object
   "message": "🅤🅦🅤"
 }
 ```
+
+### » Kaomoji endpoints
+| Function                                              | Example                         |
+|-------------------------------------------------------|---------------------------------|
+| [cat](https://api.skiffybot.xyz/api/v1/kaomoji/cat)   | Random emoji with name and type |
+| [dog](https://api.skiffybot.xyz/api/v1/kaomoji/dog)   | A single emote                  |
+| [owo](https://api.skiffybot.xyz/api/v1/kaomoji/owo)   | Return random cat               |
+| [uwu](https://api.skiffybot.xyz/api/v1/kaomoji/uwu)   | Return random heart             |
+| [love](https://api.skiffybot.xyz/api/v1/kaomoji/love) | Return random circle            |
 
 ## 📝 • Changelog
 > <a href="https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md" target="_blank" title="random-emoji/CHANGELOG.md at main · sefinek24/random-emoji">https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md</a>
