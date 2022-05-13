@@ -102,4 +102,4 @@ kaomoji.love().then(data => console.log(data));
 Open new <a href="https://github.com/sefinek24/random-emoji/issues/new/choose" target="_blank">Issue</a> on Github.  
   
 ## ⭐ • Thank you
-Give a <a href="https://github.com/sefinek24/random-emoji" target="_blank">star</a> if you can.
+Give a <a href="https://github.com/sefinek24/random-emoji" target="_blank">star</a> if you can on Github page.
