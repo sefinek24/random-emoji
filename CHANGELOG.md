@@ -1,6 +1,7 @@
 ## 📥・v1.3.0 (13.05.2022)
 1. Updated README.md file.
-2. Added new function `kaomojis()` with random kaomoji from my https://api.skiffybot.pl API.
+2. Added new function `new kaomojis()` with random kaomoji from my [API](https://api.skiffybot.pl). See examples: [[1](https://github.com/sefinek24/random-emoji/blob/main/test.js)] [[2](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)]
+3. Other changes to [index.js](https://github.com/sefinek24/random-emoji/blob/main/index.js) file.
 
 ## 📥・v1.2.0 (12.05.2022)
 1. Updated CHANGELOG.md, README.md and package.json.
