@@ -44,13 +44,37 @@ console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 ```
 
 ## 😻 • Usage
-| Function | Description                     |
-|----------|---------------------------------|
-| emojis   | Random emoji with name and type |
-| unicode  | A single emote                  |
-| cats     | Return random cat               |
-| hearts   | Return random heart             |
-| circles  | Return random circle            |
+| Function     | Description                                                  |
+|--------------|--------------------------------------------------------------|
+| emojis       | Random emoji with name and type                              |
+| unicode      | A single emote                                               |
+| cats         | Return random cat                                            |
+| hearts       | Return random heart                                          |
+| circles      | Return random circle                                         |
+| new kaomojis | Return random kaomojis from [API](https://api.skiffybot.xyz) |
+
+## ⛩️ • Kaomojis
+Await/async example
+```js
+const random = require('@sefinek/random-emoji');
+const kaomoji = new random.kaomojis();
+
+async function example() {
+    const uwu = kaomoji.uwu();
+    console.log(uwu.message);
+}
+```
+
+Will return an object
+```json
+{
+  "success": true,
+  "status": 200,
+  "category": "kaomoji",
+  "endpoint": "uwu",
+  "message": "🅤🅦🅤"
+}
+```
 
 ## 📝 • Changelog
 > <a href="https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md" target="_blank" title="random-emoji/CHANGELOG.md at main · sefinek24/random-emoji">https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md</a>
