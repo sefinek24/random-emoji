@@ -96,10 +96,10 @@ kaomoji.love().then(data => console.log(data));
 | [love](https://api.skiffybot.xyz/api/v1/kaomoji/love) | ヽ(♡‿♡)ノ   |
 
 ## 📝 • Changelog
-> <a href="https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md" target="_blank" title="random-emoji/CHANGELOG.md at main · sefinek24/random-emoji">https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md</a>
+> https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md
 
 ## 🤝 • Help
-Open new <a href="https://github.com/sefinek24/random-emoji/issues/new/choose" target="_blank">Issue</a> on Github.  
+Open new [Issue](https://github.com/sefinek24/random-emoji/issues/new/choose) on GitHub.  
   
 ## ⭐ • Thank you
-Give a <a href="https://github.com/sefinek24/random-emoji" target="_blank">star</a> if you can on Github page.
+Give a [star](https://github.com/sefinek24/random-emoji) if you can on GitHub page.
