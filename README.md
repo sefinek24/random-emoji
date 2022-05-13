@@ -44,14 +44,14 @@ console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 ```
 
 ## 😻 • Usage
-| Function     | Description                                                  |
-|--------------|--------------------------------------------------------------|
-| emojis       | Random emoji with name and type                              |
-| unicode      | A single emote                                               |
-| cats         | Return random cat                                            |
-| hearts       | Return random heart                                          |
-| circles      | Return random circle                                         |
-| new kaomojis | Return random kaomojis from [API](https://api.skiffybot.xyz) |
+| Function                                                                      | Description                                                  |
+|-------------------------------------------------------------------------------|--------------------------------------------------------------|
+| emojis                                                                        | Random emoji with name and type                              |
+| unicode                                                                       | A single emote                                               |
+| cats                                                                          | Return random cat                                            |
+| hearts                                                                        | Return random heart                                          |
+| circles                                                                       | Return random circle                                         |
+| [new kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis) | Return random kaomojis from [API](https://api.skiffybot.xyz) |
 
 ## ⛩️ • Kaomojis
 Await/async example
@@ -60,12 +60,22 @@ const random = require('@sefinek/random-emoji');
 const kaomoji = new random.kaomojis();
 
 async function example() {
-    const uwu = kaomoji.uwu();
+    const uwu = await kaomoji.uwu();
     console.log(uwu.message);
 }
+
+example(); // Execute function
 ```
 
-Will return an object
+Promise example
+```js
+const random = require('@sefinek/random-emoji');
+const kaomoji = new random.kaomojis();
+
+kaomoji.love().then(data => console.log(data));
+```
+
+The returned object
 ```json
 {
   "success": true,

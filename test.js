@@ -20,11 +20,11 @@ const circle = circles();
 console.log(`Name: ${circle.name}; Emoji: ${circle.content};`);
 
 // Random kaomoji
-const kaomoji = new kaomojis();
+(async () => {
+	const kaomoji = new kaomojis();
+	const kaoCat = await kaomoji.cat();
+	console.log(`Cat face: ${kaoCat.message}`);
 
-async function example() {
 	const uwu = await kaomoji.uwu();
-	console.log(uwu);
-}
-
-example();
+	console.log(`Random UwU: ${uwu.message}`);
+})();
