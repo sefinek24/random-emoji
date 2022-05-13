@@ -44,13 +44,13 @@ console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 ```
 
 ## 😻 • Usage
-```js
-emojis()  // Random emoji with name and type
-unicode() // A single emote
-cats()    // Return random cat
-hearts()  // Return random heart
-circles() // Return random circle
-```
+| Function | Description                     |
+|----------|---------------------------------|
+| emojis   | Random emoji with name and type |
+| unicode  | A single emote                  |
+| cats     | Return random cat               |
+| hearts   | Return random heart             |
+| circles  | Return random circle            |
 
 ## 📝 • Changelog
 > <a href="https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md" target="_blank" title="random-emoji/CHANGELOG.md at main · sefinek24/random-emoji">https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md</a>
