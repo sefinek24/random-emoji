@@ -3,16 +3,6 @@ const unicode = require('./json/unicode.json');
 const cats = require('./json/cats.json');
 const hearts = require('./json/hearts.json');
 const circles = require('./json/circles.json');
-
-// Emoji
-exports.emojis = () => emojis[Math.floor(Math.random() * emojis.length)];
-exports.unicode = () => unicode[Math.floor(Math.random() * unicode.length)];
-exports.cats = () => cats[Math.floor(Math.random() * cats.length)];
-exports.hearts = () => hearts[Math.floor(Math.random() * hearts.length)];
-exports.circles = () => circles[Math.floor(Math.random() * circles.length)];
-
-
-// Kaomoji
 const { get } = require('https');
 const { URL, URLSearchParams } = require('url');
 const endpoints = require('./api/endpoints.json');
@@ -52,4 +42,11 @@ class SkiffyBOT {
 	}
 }
 
-exports.kaomojis = SkiffyBOT;
+module.exports = {
+	emojis: () => emojis[Math.floor(Math.random() * emojis.length)],
+	unicode: () => unicode[Math.floor(Math.random() * unicode.length)],
+	cats: () => cats[Math.floor(Math.random() * cats.length)],
+	hearts: () => hearts[Math.floor(Math.random() * hearts.length)],
+	circles: () => circles[Math.floor(Math.random() * circles.length)],
+	kaomojis: SkiffyBOT,
+};
