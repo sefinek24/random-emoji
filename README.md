@@ -1,6 +1,6 @@
 <div align="center">
-    <h1>About this package</h1>
-    <p>Returns a random emoticon, its name and type. 🐱 🙀 🐈️</p>
+    <h1>🐱 About this package 🙀</h1>
+    <p>Returns a random emoticon, its name and type.</p>
     <a href="https://www.npmjs.com/package/@sefinek/random-emoji" target="_blank" title="random-emoji - npm" style="text-decoration:none">
         <img src="https://img.shields.io/npm/dt/@sefinek/random-emoji.svg?maxAge=3600" alt="The number of downloads">
         <img src="https://img.shields.io/github/issues/sefinek24/random-emoji" alt="Issues">
