@@ -1,7 +1,8 @@
 ## 📥・v1.4.0 (15.05.2022)
 1. Added new function `foods()` with random foods.
 2. Fixes in `kaomoji()`.
-3. Added Poland version of README.md file.
+3. Small fixes in README.md.
+4. Added Poland version of README.md file.
 
 ## 📥・v1.3.0 (13.05.2022)
 1. Updated README.md file.
