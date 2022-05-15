@@ -19,7 +19,7 @@
 const random = require('@sefinek/random-emoji');
 
 // 1. Podyńcza emotka
-console.log(unicode());
+console.log(random.unicode());
 // > 🥰
 
 // 2. Losowe emoji z nazwą i typem

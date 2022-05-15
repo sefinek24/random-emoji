@@ -19,7 +19,7 @@
 const random = require('@sefinek/random-emoji');
 
 // 1. A single emote
-console.log(unicode());
+console.log(random.unicode());
 // > 🥰
 
 // 2. Random emoji with name and type
