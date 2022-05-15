@@ -44,14 +44,14 @@ console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
 ```
 
 ## 😻 • Usage
-| Function                                                                          | Description                                                  |
-|-----------------------------------------------------------------------------------|--------------------------------------------------------------|
-| [emojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)           | Random emoji with name and type                              |
-| [unicode](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)          | A single emote                                               |
-| [cats](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)             | Return random cat                                            |
-| [hearts](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)           | Return random heart                                          |
-| [circles](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)          | Return random circle                                         |
-| [**new** kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis) | Return random kaomojis from [API](https://api.skiffybot.xyz) |
+| Function                                                                  | Description                                                  |
+|---------------------------------------------------------------------------|--------------------------------------------------------------|
+| [emojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)   | Random emoji with name and type                              |
+| [unicode](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)  | A single emote                                               |
+| [cats](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)     | Return random cat                                            |
+| [hearts](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)   | Return random heart                                          |
+| [circles](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)  | Return random circle                                         |
+| [kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis) | Return random kaomojis from [API](https://api.skiffybot.xyz) |
 
 ## ⛩️ • Kaomojis
 ### » Async/await example

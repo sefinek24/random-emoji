@@ -1,4 +1,4 @@
-const { unicode, emojis, cats, hearts, circles, kaomojis } = require('./index.js');
+const { unicode, emojis, cats, hearts, foods, circles, kaomojis } = require('./index.js');
 
 // A single emote
 console.log(unicode());
@@ -14,6 +14,10 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 // Random hearts
 const heart = hearts();
 console.log(`Name: ${heart.name}; Emoji: ${heart.content};`);
+
+// Random foods
+const food = foods();
+console.log(`Name: ${food.name}; Emoji: ${food.content};`);
 
 // Random circles
 const circle = circles();
