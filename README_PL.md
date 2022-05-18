@@ -24,13 +24,13 @@ console.log(random.unicode());
 
 // 2. Losowe emoji z nazwą i typem
 const emoji = random.emojis();
-console.log(`Name: ${emoji.name}; Emoji: ${emoji.content};`);
-// > Name: Cat Face; Type: animal; Emoji: 🐱;
+console.log(`Nazwa: ${emoji.name}; Emoji: ${emoji.content};`);
+// > Nazwa: Cat Face; Type: animal; Emoji: 🐱;
 
 // 3. Losowy kot
 const cat = random.cats();
-console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
-// > Name: smiley_cat; Emoji: 😺;
+console.log(`Nazwa: ${cat.name}; Emoji: ${cat.content};`);
+// > Nazwa: smiley_cat; Emoji: 😺;
 ```
 
 ## 😻 • Użycie
@@ -50,12 +50,12 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 const random = require('@sefinek/random-emoji');
 const kaomoji = new random.kaomojis();
 
-async function example() {
-    const uwu = await kaomoji.uwu();
-    console.log(uwu.message);
-}
+(async () => {
+    const kaomoji = new random.kaomojis();
 
-example(); // Wykonaj funkcje
+    const uwu = await kaomoji.uwu();
+    console.log(`Random UwU: ${uwu.message}`);
+})();
 ```
 
 ### » Przykład obietnicy
@@ -93,4 +93,4 @@ kaomoji.love().then(data => console.log(data));
 Otwórz nowy [Issue](https://github.com/sefinek24/random-emoji/issues/new/choose) na GitHubie.  
   
 ## ⭐ • Dzięki
-Daj [gwiazdkę](https://github.com/sefinek24/random-emoji), jeżeli możesz na stronie GiHub.
+Daj [gwiazdkę](https://github.com/sefinek24/random-emoji), jeżeli możesz na stronie GitHub.

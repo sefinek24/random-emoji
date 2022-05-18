@@ -44,18 +44,17 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 | [circles](https://github.com/sefinek24/random-emoji/blob/main/test.js)     | Return random circle                                         |
 | [kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)  | Return random kaomojis from [API](https://api.skiffybot.xyz) |
 
-## ⛩️ • Kaomojis
+## ⛩️ • Kaomoji
 ### » Async/await example
 ```js
 const random = require('@sefinek/random-emoji');
-const kaomoji = new random.kaomojis();
 
-async function example() {
+(async () => {
+    const kaomoji = new random.kaomojis();
+
     const uwu = await kaomoji.uwu();
-    console.log(uwu.message);
-}
-
-example(); // Execute function
+    console.log(`Random UwU: ${uwu.message}`);
+})();
 ```
 
 ### » Promise example
