@@ -7,7 +7,6 @@
         <img src="https://img.shields.io/github/last-commit/sefinek24/random-emoji" alt="Ostatni commit">
         <img src="https://img.shields.io/github/commit-activity/w/sefinek24/random-emoji" alt="Aktywność commitów">
         <img src="https://img.shields.io/github/languages/code-size/sefinek24/random-emoji" alt="Rozmiar kodu">
-        <img src="https://img.shields.io/tokei/lines/github/sefinek24/random-emoji" alt="Liczba linijek">
     </a>
 </div>
 
