@@ -47,7 +47,6 @@ console.log(`Nazwa: ${cat.name}; Emoji: ${cat.content};`);
 ### » Przykład Async/await
 ```js
 const random = require('@sefinek/random-emoji');
-const kaomoji = new random.kaomojis();
 
 (async () => {
     const kaomoji = new random.kaomojis();
