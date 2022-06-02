@@ -1,19 +1,18 @@
-const emojis = require('./json/emojis.json');
-const unicode = require('./json/unicode.json');
-const cats = require('./json/cats.json');
-const hearts = require('./json/hearts.json');
-const foods = require('./json/foods.json');
-const circles = require('./json/circles.json');
-const { get } = require('https');
-const endpoints = require('./api/endpoints.json');
+const emojis = require('./data/emoji/random.json');
+const unicode = require('./data/emoji/unicode.json');
+const cats = require('./data/emoji/cat.json');
+const hearts = require('./data/emoji/heart.json');
+const foods = require('./data/emoji/food.json');
+const circles = require('./data/emoji/circle.json');
+const endpoints = require('./data/endpoints.json');
+const { get } = require('node:https');
 
 function getContent(url) {
 	return new Promise((resolve, reject) => {
 		get(url, res => {
-			const { statusCode } = res;
-			if (statusCode !== 200) {
+			if (res.statusCode !== 200) {
 				res.resume();
-				reject(`Request failed with status code ${statusCode}.`);
+				reject(`Request failed with status code ${res.statusCode}.`);
 			}
 
 			res.setEncoding('utf8');
@@ -30,7 +29,7 @@ function getContent(url) {
 	});
 }
 
-class SkiffyBOT {
+class SkiffyAPI {
 	constructor() {
 		Object.keys(endpoints).forEach(endpoint => {
 			this[endpoint] = () => getContent(`https://api.skiffybot.xyz/api/v1/${endpoints[endpoint]}`);
@@ -45,5 +44,5 @@ module.exports = {
 	hearts: () => hearts[Math.floor(Math.random() * hearts.length)],
 	foods: () => foods[Math.floor(Math.random() * foods.length)],
 	circles: () => circles[Math.floor(Math.random() * circles.length)],
-	kaomojis: SkiffyBOT,
+	kaomojis: SkiffyAPI,
 };

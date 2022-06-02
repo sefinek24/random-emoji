@@ -1,3 +1,6 @@
+## 📥・v1.4.1 (02.06.2022)
+1. Small changes.
+
 ## 📥・v1.4.0 (15.05.2022)
 1. Added new function `foods()` with random foods.
 2. Fixes in `kaomoji()`.
