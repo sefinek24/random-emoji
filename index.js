@@ -11,13 +11,12 @@ function getContent(url) {
 	return new Promise((resolve, reject) => {
 		get(url, res => {
 			if (res.statusCode !== 200) {
-				res.resume();
 				reject(`Request failed with status code ${res.statusCode}.`);
 			}
 
 			res.setEncoding('utf8');
 			let rawData = '';
-			res.on('data', chunk => {rawData += chunk;});
+			res.on('data', chunk => rawData = chunk);
 			res.on('end', () => {
 				try {
 					resolve(JSON.parse(rawData));
