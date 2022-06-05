@@ -33,15 +33,15 @@ console.log(`Nazwa: ${cat.name}; Emoji: ${cat.content};`);
 ```
 
 ## 😻 • Użycie
-| Funkcja                                                                   | Opis                                                     |
-|---------------------------------------------------------------------------|----------------------------------------------------------|
-| [emojis](https://github.com/sefinek24/random-emoji/blob/main/test.js)     | Losowe emoji z nazwą i typem                             |
-| [unicode](https://github.com/sefinek24/random-emoji/blob/main/test.js)    | Pojedyncza emotikona                                     |
-| [cats](https://github.com/sefinek24/random-emoji/blob/main/test.js)       | Zwraca losowego kota                                     |
-| [hearts](https://github.com/sefinek24/random-emoji/blob/main/test.js)     | Zwraca losowe serce                                      |
-| [foods](https://github.com/sefinek24/random-emoji/blob/main/test.js)      | Zwraca losowe jedzenie                                   |
-| [circles](https://github.com/sefinek24/random-emoji/blob/main/test.js)    | Zwraca losowe kółko                                      |
-| [kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis) | Zwraca losowe kaomoji z [API](https://api.skiffybot.xyz) |
+| Funkcja                                                                                                         | Opis                                                     |
+|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| [unicode](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L3)   | Pojedyncza emotikona                                     |
+| [emojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L6)    | Losowe emoji z nazwą i typem                             |
+| [cats](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L10)     | Zwraca losowego kota                                     |
+| [hearts](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L14)   | Zwraca losowe serce                                      |
+| [foods](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)    | Zwraca losowe jedzenie                                   |
+| [circles](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)  | Zwraca losowe kółko                                      |
+| [kaomojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L26) | Zwraca losowe kaomoji z [API](https://api.skiffybot.xyz) |
 
 ## ⛩️ • Kaomoji
 ### » Przykład Async/await

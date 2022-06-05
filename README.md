@@ -24,7 +24,6 @@ console.log(random.unicode());
 // 2. Random emoji with name and type
 const emoji = random.emojis();
 console.log(`Name: ${emoji.name}; Emoji: ${emoji.content};`);
-// > Name: jack-o-lantern; Emoji: 🎃;
 
 // 3. Random cat
 const cat = random.cats();
@@ -33,15 +32,15 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 ```
 
 ## 😻 • Usage
-| Function                                                                   | Description                                                  |
-|----------------------------------------------------------------------------|--------------------------------------------------------------|
-| [emojis](https://github.com/sefinek24/random-emoji/blob/main/test.js)      | Random emoji with name and type                              |
-| [unicode](https://github.com/sefinek24/random-emoji/blob/main/test.js)     | A single emote                                               |
-| [cats](https://github.com/sefinek24/random-emoji/blob/main/test.js)        | Return random cat                                            |
-| [hearts](https://github.com/sefinek24/random-emoji/blob/main/test.js)      | Return random heart                                          |
-| [foods](https://github.com/sefinek24/random-emoji/blob/main/test.js)       | Return random food                                           |
-| [circles](https://github.com/sefinek24/random-emoji/blob/main/test.js)     | Return random circle                                         |
-| [kaomojis](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)  | Return random kaomojis from [API](https://api.skiffybot.xyz) |
+| Function                                                                                                        | Description                                                  |
+|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| [unicode](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L3)   | A single emote                                               |
+| [emojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L6)    | Random emoji with name and type                              |
+| [cats](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L10)     | Return random cat                                            |
+| [hearts](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L14)   | Return random heart                                          |
+| [foods](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)    | Return random food                                           |
+| [circles](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)  | Return random circle                                         |
+| [kaomojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L26) | Return random kaomojis from [API](https://api.skiffybot.xyz) |
 
 ## ⛩️ • Kaomoji
 ### » Async/await example
