@@ -37,8 +37,8 @@ class SkiffyAPI {
 }
 
 module.exports = {
-	emojis: () => emojis[Math.floor(Math.random() * emojis.length)],
 	unicode: () => unicode[Math.floor(Math.random() * unicode.length)],
+	emojis: () => emojis[Math.floor(Math.random() * emojis.length)],
 	cats: () => cats[Math.floor(Math.random() * cats.length)],
 	hearts: () => hearts[Math.floor(Math.random() * hearts.length)],
 	foods: () => foods[Math.floor(Math.random() * foods.length)],

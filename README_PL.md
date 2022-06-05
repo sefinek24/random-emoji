@@ -24,7 +24,7 @@ console.log(random.unicode());
 // 2. Losowe emoji z nazwą i typem
 const emoji = random.emojis();
 console.log(`Nazwa: ${emoji.name}; Emoji: ${emoji.content};`);
-// > Nazwa: Cat Face; Type: animal; Emoji: 🐱;
+// > Nazwa: Cat Face; Emoji: 🐱;
 
 // 3. Losowy kot
 const cat = random.cats();
