@@ -1,4 +1,7 @@
-## 📥・v1.4.2 (02.06.2022)
+## 📥・v1.4.3 (19.09.2022)
+1. Small changes in index.d.ts etc.
+
+## 📥・v1.4.2 (05.06.2022)
 1. Added typings.
 2. Small fixes in README.md and README_PL.md.
 
