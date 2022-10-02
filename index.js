@@ -31,7 +31,7 @@ function getContent(url) {
 class SkiffyAPI {
 	constructor() {
 		Object.keys(endpoints).forEach(endpoint => {
-			this[endpoint] = () => getContent(`https://api.skiffybot.xyz/api/v1/${endpoints[endpoint]}`);
+			this[endpoint] = () => getContent(`https://api-skiffy.sefinek.fun/api/v1/${endpoints[endpoint]}`);
 		});
 	}
 }
