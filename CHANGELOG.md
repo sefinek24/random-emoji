@@ -1,3 +1,6 @@
+## 📥・v1.4.4 (02.10.2022)
+1. Fixed URLs.
+
 ## 📥・v1.4.3 (19.09.2022)
 1. Small changes in index.d.ts etc.
 
