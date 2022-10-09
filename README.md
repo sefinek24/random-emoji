@@ -41,7 +41,7 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 | [hearts](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L14)   | Return random heart                                          |
 | [foods](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)    | Return random food                                           |
 | [circles](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)  | Return random circle                                         |
-| [kaomojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L26) | Return random kaomojis from [API](https://api-skiffy.sefinek.fun) |
+| [kaomojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L26) | Return random kaomojis from [API](https://api.sefinek.net) |
 
 ## ⛩️ • Kaomoji
 ### » Async/await example
@@ -64,7 +64,7 @@ const kaomoji = new random.kaomojis();
 kaomoji.love().then(data => console.log(data));
 ```
 
-### » The returned object from [API](https://api-skiffy.sefinek.fun)
+### » The returned object from [API](https://api.sefinek.net)
 ```json
 {
   "success": true,
@@ -78,11 +78,11 @@ kaomoji.love().then(data => console.log(data));
 ### » Kaomoji endpoints
 | Function                                              | Example   |
 |-------------------------------------------------------|-----------|
-| [cat](https://api-skiffy.sefinek.fun/api/v1/kaomoji/cat)   | (=^-ω-^=) |
-| [dog](https://api-skiffy.sefinek.fun/api/v1/kaomoji/dog)   | ଘ(∪・ﻌ・∪)ଓ |
-| [owo](https://api-skiffy.sefinek.fun/api/v1/kaomoji/owo)   | 𝓞𝔀𝓞    |
-| [uwu](https://api-skiffy.sefinek.fun/api/v1/kaomoji/uwu)   | 𝕌𝕨𝕌    |
-| [love](https://api-skiffy.sefinek.fun/api/v1/kaomoji/love) | ヽ(♡‿♡)ノ   |
+| [cat](https://api.sefinek.net/api/v1/kaomoji/cat)   | (=^-ω-^=) |
+| [dog](https://api.sefinek.net/api/v1/kaomoji/dog)   | ଘ(∪・ﻌ・∪)ଓ |
+| [owo](https://api.sefinek.net/api/v1/kaomoji/owo)   | 𝓞𝔀𝓞    |
+| [uwu](https://api.sefinek.net/api/v1/kaomoji/uwu)   | 𝕌𝕨𝕌    |
+| [love](https://api.sefinek.net/api/v1/kaomoji/love) | ヽ(♡‿♡)ノ   |
 
 ## 📝 • Changelog
 > https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md

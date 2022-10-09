@@ -1,6 +1,6 @@
 {
   "name": "@sefinek/random-emoji",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "description": "Returns a random emoticons (name, type) and kaomojis.",
   "main": "index.js",
   "scripts": {
@@ -27,7 +27,7 @@
     "name",
     "type"
   ],
-  "author": "Sefinek <contact@sefinek.fun>",
+  "author": "Sefinek <contact@sefinek.net>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sefinek24/random-emoji/issues"
