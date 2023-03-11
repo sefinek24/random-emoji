@@ -33,14 +33,14 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 ```
 
 ## 😻 • Usage
-| Function                                                                                                        | Description                                                  |
-|-----------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| [unicode](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L3)   | A single emote                                               |
-| [emojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L6)    | Random emoji with name and type                              |
-| [cats](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L10)     | Return random cat                                            |
-| [hearts](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L14)   | Return random heart                                          |
-| [foods](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)    | Return random food                                           |
-| [circles](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)  | Return random circle                                         |
+| Function                                                                                                        | Description                                                |
+|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [unicode](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L3)   | A single emote                                             |
+| [emojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L6)    | Random emoji with name and type                            |
+| [cats](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L10)     | Return random cat                                          |
+| [hearts](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L14)   | Return random heart                                        |
+| [foods](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)    | Return random food                                         |
+| [circles](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)  | Return random circle                                       |
 | [kaomojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L26) | Return random kaomojis from [API](https://api.sefinek.net) |
 
 ## ⛩️ • Kaomoji
