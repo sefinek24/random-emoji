@@ -1,6 +1,6 @@
 const random = require('@sefinek/random-emoji');
 
-// A single emote
+// A single emoji
 console.log(random.unicode());
 
 // Random emoji with name and type
@@ -25,11 +25,11 @@ console.log(`Name: ${circle.name}; Emoji: ${circle.content};`);
 
 // Random kaomoji
 (async () => {
-	const kaomoji = new random.kaomojis();
+	const kaomojis = new random.Kaomojis();
 
-	const kaoCat = await kaomoji.cat();
+	const kaoCat = await kaomojis.cat();
 	console.log(`Cat face: ${kaoCat.message}`);
 
-	const uwu = await kaomoji.uwu();
+	const uwu = await kaomojis.uwu();
 	console.log(`Random UwU: ${uwu.message}`);
 })();

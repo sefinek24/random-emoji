@@ -17,7 +17,7 @@ declare module '@sefinek/random-emoji' {
 
 
     // Kaomojis
-    interface ApiResponse {
+    export interface ApiResponse {
         success: boolean;
         status: number;
         info: {
@@ -26,7 +26,7 @@ declare module '@sefinek/random-emoji' {
         };
         message: string;
     }
-    export class kaomojis {
+    export class Kaomojis {
         cat(): Promise<ApiResponse>;
         owo(): Promise<ApiResponse>;
         uwu(): Promise<ApiResponse>;
