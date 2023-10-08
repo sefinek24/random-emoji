@@ -1,4 +1,3 @@
-const { name, version } = require('./package.json');
 const emojis = require('./data/emoji/random.json');
 const unicode = require('./data/emoji/unicode.json');
 const cats = require('./data/emoji/cat.json');
@@ -6,10 +5,12 @@ const hearts = require('./data/emoji/heart.json');
 const foods = require('./data/emoji/food.json');
 const circles = require('./data/emoji/circle.json');
 const endpoints = require('./data/endpoints.json');
+const { name, version } = require('./package.json');
 const { get } = require('node:https');
 
 const options = {
 	method: 'GET',
+	port: 443,
 	headers: {
 		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-emoji)`,
 		'Accept': 'application/json',
@@ -73,5 +74,6 @@ module.exports = {
 	hearts: () => hearts[Math.floor(Math.random() * hearts.length)],
 	foods: () => foods[Math.floor(Math.random() * foods.length)],
 	circles: () => circles[Math.floor(Math.random() * circles.length)],
-	kaomojis: SefinekAPI,
+	Kaomojis: SefinekAPI,
+	version,
 };

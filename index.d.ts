@@ -32,4 +32,8 @@ declare module '@sefinek/random-emoji' {
         uwu(): Promise<ApiResponse>;
         love(): Promise<ApiResponse>;
     }
+
+
+    // Other
+    export const version: string;
 }

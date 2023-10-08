@@ -1,5 +1,15 @@
-## 📥・v1.4.6 (11.03.2023)
+## 📥・v2.0.0  (08.11.2023)
+### 🎉 Added
+1. `<random>.version`
+
+### ✨ Changes
 1. Removed `README_PL.md`.
+2. Updated add added new types to `index.d.ts` file.
+3. Now this module uses only native module (like `https`).
+4. Added new headers for better safety etc.
+
+### 🌠 Migration
+1. Changed `new random.kaomojis()` to `new random.Kaomojis()`.
 
 ## 📥・v1.4.6 (11.03.2023)
 1. Updated to **v2** release of API.

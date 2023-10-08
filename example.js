@@ -33,3 +33,6 @@ console.log(`Name: ${circle.name}; Emoji: ${circle.content};`);
 	const uwu = await kaomojis.uwu();
 	console.log(`Random UwU: ${uwu.message}`);
 })();
+
+// Version
+console.log(`Module version: ${random.version}`);

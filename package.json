@@ -1,15 +1,7 @@
 {
   "name": "@sefinek/random-emoji",
-  "version": "1.4.6",
-  "description": "Returns a random emoticons (name, type) and kaomojis.",
-  "main": "index.js",
-  "scripts": {
-    "test": "node example.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sefinek24/random-emoji.git"
-  },
+  "version": "2.0.0",
+  "description": "A module providing various random emoticons along with their names and types. Additionally, it also includes random kaomoji.",
   "keywords": [
     "random",
     "emoji",
@@ -27,11 +19,29 @@
     "name",
     "type"
   ],
-  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
-  "license": "MIT",
+  "homepage": "https://github.com/sefinek24/random-emoji#readme",
   "bugs": {
     "url": "https://github.com/sefinek24/random-emoji/issues"
   },
-  "homepage": "https://github.com/sefinek24/random-emoji#readme",
-  "types": "./index.d.ts"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sefinek24/random-emoji.git"
+  },
+  "license": "MIT",
+  "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "directories": {
+    "data": "data"
+  },
+  "files": [
+    "example.js",
+    "index.d.ts",
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node example.js"
+  }
 }
