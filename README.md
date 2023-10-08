@@ -107,5 +107,5 @@ If you use the Random Emoji module and appreciate my work, I'd be grateful if yo
 Your support helps me continue to develop this project and provide new and fun emojis to every user.
 
 
-## 🎓 MIT License
-[MIT](LICENSE)
+## 🎓 [MIT License](LICENSE)
+Copyright 2023 © by [Sefinek](https://sefinek.net). All Rights Reserved.
