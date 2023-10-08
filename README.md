@@ -11,7 +11,10 @@
 </div>
 
 ## 📥 • Installation
-> **$** npm install @sefinek/random-emoji
+```bash
+npm install @sefinek/random-emoji
+```
+
 
 ## 😻 • Usage
 | Function                                                                                                        | Description                                                |
@@ -89,6 +92,7 @@ kaomoji.love().then(console.log);
 | [uwu](https://api.sefinek.net/api/v2/kaomoji/uwu)   | 𝕌𝕨𝕌    |
 | [love](https://api.sefinek.net/api/v2/kaomoji/love) | ヽ(♡‿♡)ノ   |
 
+    
 ## 📝 • Changelog
 > https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md
 
