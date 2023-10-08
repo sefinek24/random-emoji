@@ -77,7 +77,6 @@ class SefinekAPI {
 		Object.keys(endpoints).forEach(endpoint => {
 			/**
 			 * Access a specific random content endpoint.
-			 *
 			 * @method
 			 * @returns {Promise} - A Promise that resolves with the fetched content or rejects with an error.
 			 */
