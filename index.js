@@ -1,3 +1,4 @@
+const { get } = require('node:https');
 const emojis = require('./data/emoji/random.json');
 const unicode = require('./data/emoji/unicode.json');
 const cats = require('./data/emoji/cat.json');
@@ -6,7 +7,6 @@ const foods = require('./data/emoji/food.json');
 const circles = require('./data/emoji/circle.json');
 const endpoints = require('./data/endpoints.json');
 const { name, version } = require('./package.json');
-const { get } = require('node:https');
 
 const options = {
 	method: 'GET',
