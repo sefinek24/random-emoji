@@ -1,14 +1,35 @@
-export function unicode(): string;
-export function emojis(): Object;
-export function cats(): Object;
-export function hearts(): Object;
-export function foods(): Object;
-export function circles(): Object;
+declare module '@sefinek/random-emoji' {
+    // Unicode
+    export function unicode(): string;
 
-export class kaomojis {
-    cat();
-    dog();
-    owo();
-    uwu();
-    love();
+
+    // Random emojis
+    export interface Emoji {
+        content: string;
+        name: string;
+        type: string;
+    }
+    export function emojis(): Emoji;
+    export function cats(): Emoji;
+    export function hearts(): Emoji;
+    export function foods(): Emoji;
+    export function circles(): Emoji;
+
+
+    // Kaomojis
+    interface ApiResponse {
+        success: boolean;
+        status: number;
+        info: {
+            category: string;
+            endpoint: string;
+        };
+        message: string;
+    }
+    export class kaomojis {
+        cat(): Promise<ApiResponse>;
+        owo(): Promise<ApiResponse>;
+        uwu(): Promise<ApiResponse>;
+        love(): Promise<ApiResponse>;
+    }
 }

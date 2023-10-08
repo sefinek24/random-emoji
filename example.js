@@ -1,4 +1,4 @@
-const random = require('./');
+const random = require('@sefinek/random-emoji');
 
 // A single emote
 console.log(random.unicode());
