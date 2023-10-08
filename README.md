@@ -13,6 +13,18 @@
 ## 📥 • Installation
 > **$** npm install @sefinek/random-emoji
 
+## 😻 • Usage
+| Function                                                                                                        | Description                                                |
+|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
+| [unicode](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L3)   | A single emote                                             |
+| [emojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L6)    | Random emoji with name and type                            |
+| [cats](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L10)     | Return random cat                                          |
+| [hearts](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L14)   | Return random heart                                        |
+| [foods](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)    | Return random food                                         |
+| [circles](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)  | Return random circle                                       |
+| [Kaomojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L26) | Return random kaomojis from [API](https://api.sefinek.net) |
+
+
 ## 😼 • Examples
 ```js
 const random = require('@sefinek/random-emoji');
@@ -32,24 +44,14 @@ console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
 // > Name: smiley_cat; Emoji: 😺;
 ```
 
-## 😻 • Usage
-| Function                                                                                                        | Description                                                |
-|-----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| [unicode](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L3)   | A single emote                                             |
-| [emojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L6)    | Random emoji with name and type                            |
-| [cats](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L10)     | Return random cat                                          |
-| [hearts](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L14)   | Return random heart                                        |
-| [foods](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L18)    | Return random food                                         |
-| [circles](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L22)  | Return random circle                                       |
-| [kaomojis](https://github.com/sefinek24/random-emoji/blob/ab58b364710a4c7106721808e81ccdc7590c4965/test.js#L26) | Return random kaomojis from [API](https://api.sefinek.net) |
 
-## ⛩️ • Kaomoji
+## ⛩️ • Kaomojis
 ### » Async/await example
 ```js
 const random = require('@sefinek/random-emoji');
 
 (async () => {
-    const kaomoji = new random.kaomojis();
+    const kaomoji = new random.Kaomojis();
 
     const uwu = await kaomoji.uwu();
     console.log(`Random UwU: ${uwu.message}`);
@@ -59,7 +61,7 @@ const random = require('@sefinek/random-emoji');
 ### » Promise example
 ```js
 const random = require('@sefinek/random-emoji');
-const kaomoji = new random.kaomojis();
+const kaomoji = new random.Kaomojis();
 
 kaomoji.love().then(data => console.log(data));
 ```
@@ -75,14 +77,15 @@ kaomoji.love().then(data => console.log(data));
 }
 ```
 
+
 ### » Kaomoji endpoints
-| Function                                              | Example   |
-|-------------------------------------------------------|-----------|
-| [cat](https://api.sefinek.net/api/v1/kaomoji/cat)   | (=^-ω-^=) |
-| [dog](https://api.sefinek.net/api/v1/kaomoji/dog)   | ଘ(∪・ﻌ・∪)ଓ |
-| [owo](https://api.sefinek.net/api/v1/kaomoji/owo)   | 𝓞𝔀𝓞    |
-| [uwu](https://api.sefinek.net/api/v1/kaomoji/uwu)   | 𝕌𝕨𝕌    |
-| [love](https://api.sefinek.net/api/v1/kaomoji/love) | ヽ(♡‿♡)ノ   |
+| Function                                            | Example   |
+|-----------------------------------------------------|-----------|
+| [cat](https://api.sefinek.net/api/v2/kaomoji/cat)   | (=^-ω-^=) |
+| [dog](https://api.sefinek.net/api/v2/kaomoji/dog)   | ଘ(∪・ﻌ・∪)ଓ |
+| [owo](https://api.sefinek.net/api/v2/kaomoji/owo)   | 𝓞𝔀𝓞    |
+| [uwu](https://api.sefinek.net/api/v2/kaomoji/uwu)   | 𝕌𝕨𝕌    |
+| [love](https://api.sefinek.net/api/v2/kaomoji/love) | ヽ(♡‿♡)ノ   |
 
 ## 📝 • Changelog
 > https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md
