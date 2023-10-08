@@ -96,8 +96,16 @@ kaomoji.love().then(console.log);
 ## 📝 • Changelog
 > https://github.com/sefinek24/random-emoji/blob/main/CHANGELOG.md
 
+
 ## 🤝 • Help
-Open new [Issue](https://github.com/sefinek24/random-emoji/issues/new/choose) on GitHub.  
+Need assistance or have questions about this module? Don't hesitate to open a new [Issue](https://github.com/sefinek24/random-emoji/issues/new) on our GitHub repository.
+Our community is ready to help and provide answers to your inquiries.
   
+
 ## ⭐ • Thank you
-Give a [star](https://github.com/sefinek24/random-emoji) if you can on GitHub page.
+If you use the Random Emoji module and appreciate my work, I'd be grateful if you could give it a star on our [GitHub page](https://github.com/sefinek24/random-emoji).
+Your support helps me continue to develop this project and provide new and fun emojis to every user.
+
+
+## 🎓 MIT License
+[MIT](LICENSE)
