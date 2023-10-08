@@ -29,19 +29,19 @@
 ```js
 const random = require('@sefinek/random-emoji');
 
-// 1. A single emote
+// 1. A single emoji
 console.log(random.unicode());
-// > 🥰
+// Output: 🥰
 
 // 2. Random emoji with name and type
 const emoji = random.emojis();
 console.log(`Name: ${emoji.name}; Emoji: ${emoji.content};`);
-// > Name: jack-o-lantern; Emoji: 🎃;
+// Output: Name: jack-o-lantern; Emoji: 🎃;
 
 // 3. Random cat
 const cat = random.cats();
 console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
-// > Name: smiley_cat; Emoji: 😺;
+// Output: Name: smiley_cat; Emoji: 😺;
 ```
 
 
