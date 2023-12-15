@@ -1,4 +1,4 @@
-const { get } = require('node:https');
+const { get } = require('https');
 const emojis = require('./data/emoji/random.json');
 const unicode = require('./data/emoji/unicode.json');
 const cats = require('./data/emoji/cat.json');
