@@ -47,7 +47,7 @@ function getContent(url) {
 			res.setEncoding('utf8');
 
 			let rawData = '';
-			res.on('data', (chunk) => {
+			res.on('data', chunk => {
 				rawData += chunk;
 			});
 
