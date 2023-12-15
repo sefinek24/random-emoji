@@ -6,7 +6,7 @@ const hearts = require('./data/emoji/heart.json');
 const foods = require('./data/emoji/food.json');
 const circles = require('./data/emoji/circle.json');
 const endpoints = require('./data/endpoints.json');
-const { name, version } = require('./package.json');
+const { version } = require('./package.json');
 
 /**
  * Configuration options for HTTP requests.
@@ -16,7 +16,7 @@ const options = {
 	method: 'GET',
 	port: 443,
 	headers: {
-		'User-Agent': `${name}/${version} (+https://github.com/sefinek24/random-emoji)`,
+		'User-Agent': `random-emoji/${version} (+https://github.com/sefinek24/random-emoji)`,
 		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
 		'CF-IPCountry': 'false',
