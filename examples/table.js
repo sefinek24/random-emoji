@@ -1,31 +1,31 @@
-const random = require('../index.js');
+const random = require('../index.js'); // Change to @sefinek/random-emoji
 const data = [];
 
 async function displayEmojiData() {
-	// Fetches a single random Unicode emoji.
+	// Get a single random Unicode emoji
 	data.push({ Function: 'unicode()', Emoji: random.unicode().trim() });
 
-	// Retrieves a random emoji with its name, visual representation, and type.
+	// Retrieves a random emoji with its name, visual representation, and type
 	const emoji = random.emojis();
 	data.push({ Function: 'emojis()', Emoji: emoji.content.trim(), Name: emoji.name, Type: emoji.type });
 
-	// Gets a random cat emoji with its name and visual representation.
+	// Get a random cat emoji
 	const cat = random.cats();
 	data.push({ Function: 'cats()', Emoji: cat.content.trim(), Name: cat.name });
 
-	// Fetches a random heart emoji with its name and visual representation.
+	// Get a random heart emoji
 	const heart = random.hearts();
 	data.push({ Function: 'hearts()', Emoji: heart.content.trim(), Name: heart.name });
 
-	// Retrieves a random food emoji with its name and visual representation.
+	// Retrieves a random food emoji
 	const food = random.foods();
 	data.push({ Function: 'foods()', Emoji: food.content.trim(), Name: food.name });
 
-	// Gets a random circle emoji with its name and visual representation.
+	// Gets a random circle emoji
 	const circle = random.circles();
 	data.push({ Function: 'circles()', Emoji: circle.content.trim(), Name: circle.name });
 
-	// Gets a random squares emoji with its name and visual representation.
+	// Gets a random squares emoji
 	const squares = random.squares();
 	data.push({ Function: 'squares()', Emoji: squares.content.trim(), Name: squares.name });
 
@@ -45,7 +45,7 @@ async function displayEmojiData() {
 
 try {
 	displayEmojiData().then(() => {
-		// Displays the current version of the module.
+		// Displays the current version of the module
 		console.log(`Module version: v${random.version}`);
 	});
 } catch (err) {
