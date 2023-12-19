@@ -1,27 +1,32 @@
 const { get } = require('https');
-const cats = require('./data/emoji/cat.json');
-const circles = require('./data/emoji/circle.json');
-const foods = require('./data/emoji/food.json');
-const hearts = require('./data/emoji/heart.json');
-const emojis = require('./data/emoji/random.json');
-const endpoints = require('./data/endpoints.json');
-const squares = require('./data/emoji/square.json');
-const unicode = require('./data/emoji/unicode.json');
 const { version } = require('./package.json');
 
+const emojis = {
+	emojis: require('./data/emoji/collection/big.json'),
+
+	cats: require('./data/emoji/cat.json'),
+	foods: require('./data/emoji/food.json'),
+	hearts: require('./data/emoji/heart.json'),
+
+	circles: require('./data/emoji/circle.json'),
+	squares: require('./data/emoji/square.json'),
+
+	unicode: require('./data/emoji/collection/single.json')
+};
+
+const endpoints = require('./data/endpoints.json');
+
 /**
- * Configuration options for HTTP requests.
+ * Options for HTTP GET requests.
  * @type {Object}
  */
-const options = {
+const httpOptions = {
 	method: 'GET',
 	port: 443,
 	headers: {
 		'User-Agent': `Mozilla/5.0 (compatible; random-emoji/${version}; +https://github.com/sefinek24/random-emoji)`,
 		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
-		'CF-IPCountry': 'false',
-		'CF-Visitor': '{"scheme":"https"}',
 		'Connection': 'keep-alive',
 		'DNT': '1',
 		'Pragma': 'no-cache',
@@ -29,116 +34,53 @@ const options = {
 		'X-Content-Type-Options': 'nosniff',
 		'X-Frame-Options': 'DENY',
 		'X-XSS-Protection': '1; mode=block',
-	},
+	}
 };
 
 /**
- * Fetch content from a given URL using HTTP GET.
- * @param {string} url - The URL to fetch content from.
- * @returns {Promise} - A Promise that resolves with the fetched JSON data or rejects with an error.
+ * Fetches content from a URL.
+ * @param {string} url - URL to fetch content from.
+ * @returns {Promise<Object>} - Promise resolving to the fetched JSON data.
  */
-function getContent(url) {
-	return new Promise((resolve, reject) => {
-		const req = get(url, options, res => {
-			if (res.statusCode !== 200) {
-				reject(`Request failed with status code ${res.statusCode}.`);
-				return;
-			}
-
-			res.setEncoding('utf8');
-
-			let rawData = '';
-			res.on('data', chunk => {
-				rawData += chunk;
-			});
-
-			res.on('end', () => {
-				try {
-					resolve(JSON.parse(rawData));
-				} catch (err) {
-					reject(err.message);
-				}
-			});
+async function getContent(url) {
+	try {
+		const res = await new Promise((resolve, reject) => {
+			const req = get(url, httpOptions, resolve);
+			req.on('error', reject);
+			req.end();
 		});
 
-		req.on('error', err => {
-			reject(err);
-		});
+		if (res.statusCode !== 200) {
+			throw new Error(`Request failed with status code ${res.statusCode}`);
+		}
 
-		req.end();
-	});
+		res.setEncoding('utf8');
+		let rawData = '';
+		for await (const chunk of res) {
+			rawData += chunk;
+		}
+		return JSON.parse(rawData);
+	} catch (err) {
+		throw err;
+	}
 }
 
 /**
  * SefinekAPI class for accessing various random content endpoints.
- * @class
  */
 class SefinekAPI {
 	constructor() {
 		Object.keys(endpoints).forEach(endpoint => {
-			/**
-			 * Access a specific random content endpoint.
-			 * @method
-			 * @returns {Promise} - A Promise that resolves with the fetched content or rejects with an error.
-			 */
 			this[endpoint] = () => getContent(`https://api.sefinek.net/api/v2/random/${endpoints[endpoint]}`);
 		});
 	}
 }
 
 module.exports = {
-	/**
-	 * Get a random cat emoji.
-	 * @returns {object} - A random cat emoji.
-	 */
-	cats: () => cats[Math.floor(Math.random() * cats.length)],
+	...Object.fromEntries(Object.entries(emojis).map(([key, value]) => [
+		key, () => value[Math.floor(Math.random() * value.length)]
+	])),
 
-	/**
-	 * Get a random circle emoji.
-	 * @returns {object} - A random circle emoji.
-	 */
-
-	circles: () => circles[Math.floor(Math.random() * circles.length)],
-
-	/**
-	 * Get a random food emoji.
-	 * @returns {object} - A random food emoji.
-	 */
-	foods: () => foods[Math.floor(Math.random() * foods.length)],
-
-	/**
-	 * Get a random heart emoji.
-	 * @returns {object} - A random heart emoji.
-	 */
-	hearts: () => hearts[Math.floor(Math.random() * hearts.length)],
-
-	/**
-	 * Get a random emoji.
-	 * @returns {object} - A random emoji.
-	 */
-	emojis: () => emojis[Math.floor(Math.random() * emojis.length)],
-
-	/**
-	 * Get a random square emoji.
-	 * @returns {object} - A random food emoji.
-	 */
-	squares: () => squares[Math.floor(Math.random() * squares.length)],
-
-	/**
-	 * Get a random Unicode emoji.
-	 * @returns {string} - A random Unicode emoji.
-	 */
-	unicode: () => unicode[Math.floor(Math.random() * unicode.length)],
-
-
-	/**
-	 * Access various random content endpoints using the SefinekAPI class.
-	 */
 	Kaomojis: SefinekAPI,
-
-	/**
-	 * Get the module version.
-	 * @returns {string} - Returns the package version.
-	 */
 	version,
 };
