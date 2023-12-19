@@ -1,11 +1,1 @@
-[
-  {"content": "🟥", "name": "red_square"},
-  {"content": "🟧", "name": "orange_square"},
-  {"content": "🟨", "name": "yellow_square"},
-  {"content": "🟩", "name": "green_square"},
-  {"content": "🟦", "name": "blue_square"},
-  {"content": "🟪", "name": "purple_square"},
-  {"content": "🟫", "name": "brown_square"},
-  {"content": "⬛", "name": "black_large_square"},
-  {"content": "⬜", "name": "white_large_square"}
-]
+[{"content":"🟥","name":"red_square"},{"content":"🟧","name":"orange_square"},{"content":"🟨","name":"yellow_square"},{"content":"🟩","name":"green_square"},{"content":"🟦","name":"blue_square"},{"content":"🟪","name":"purple_square"},{"content":"🟫","name":"brown_square"},{"content":"⬛","name":"black_large_square"},{"content":"⬜","name":"white_large_square"}]
