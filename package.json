@@ -30,19 +30,8 @@
   "license": "MIT",
   "author": "Sefinek <contact@sefinek.net> (https://sefinek.net)",
   "main": "index.js",
-  "types": "./index.d.ts",
-  "directories": {
-    "data": "data"
-  },
-  "files": [
-    "data/",
-    "example.js",
-    "index.d.ts",
-    "index.js",
-    "LICENSE",
-    "README.md"
-  ],
+  "typings": "./index.d.ts",
   "scripts": {
-    "test": "node example.js"
+    "test": "node examples/main.js"
   }
 }
