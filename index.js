@@ -1,11 +1,12 @@
 const { get } = require('https');
-const emojis = require('./data/emoji/random.json');
-const unicode = require('./data/emoji/unicode.json');
 const cats = require('./data/emoji/cat.json');
-const hearts = require('./data/emoji/heart.json');
-const foods = require('./data/emoji/food.json');
 const circles = require('./data/emoji/circle.json');
+const foods = require('./data/emoji/food.json');
+const hearts = require('./data/emoji/heart.json');
+const emojis = require('./data/emoji/random.json');
 const endpoints = require('./data/endpoints.json');
+const squares = require('./data/emoji/square.json');
+const unicode = require('./data/emoji/unicode.json');
 const { version } = require('./package.json');
 
 /**
@@ -16,7 +17,7 @@ const options = {
 	method: 'GET',
 	port: 443,
 	headers: {
-		'User-Agent': `random-emoji/${version} (+https://github.com/sefinek24/random-emoji)`,
+		'User-Agent': `Mozilla/5.0 (compatible; random-emoji/${version}; +https://github.com/sefinek24/random-emoji)`,
 		'Accept': 'application/json',
 		'Cache-Control': 'no-cache',
 		'CF-IPCountry': 'false',
@@ -87,28 +88,17 @@ class SefinekAPI {
 
 module.exports = {
 	/**
-	 * Get a random Unicode emoji.
-	 * @returns {string} - A random Unicode emoji.
-	 */
-	unicode: () => unicode[Math.floor(Math.random() * unicode.length)],
-
-	/**
-	 * Get a random emoji.
-	 * @returns {object} - A random emoji.
-	 */
-	emojis: () => emojis[Math.floor(Math.random() * emojis.length)],
-
-	/**
 	 * Get a random cat emoji.
 	 * @returns {object} - A random cat emoji.
 	 */
 	cats: () => cats[Math.floor(Math.random() * cats.length)],
 
 	/**
-	 * Get a random heart emoji.
-	 * @returns {object} - A random heart emoji.
+	 * Get a random circle emoji.
+	 * @returns {object} - A random circle emoji.
 	 */
-	hearts: () => hearts[Math.floor(Math.random() * hearts.length)],
+
+	circles: () => circles[Math.floor(Math.random() * circles.length)],
 
 	/**
 	 * Get a random food emoji.
@@ -117,10 +107,29 @@ module.exports = {
 	foods: () => foods[Math.floor(Math.random() * foods.length)],
 
 	/**
-	 * Get a random circle emoji.
-	 * @returns {object} - A random circle emoji.
+	 * Get a random heart emoji.
+	 * @returns {object} - A random heart emoji.
 	 */
-	circles: () => circles[Math.floor(Math.random() * circles.length)],
+	hearts: () => hearts[Math.floor(Math.random() * hearts.length)],
+
+	/**
+	 * Get a random emoji.
+	 * @returns {object} - A random emoji.
+	 */
+	emojis: () => emojis[Math.floor(Math.random() * emojis.length)],
+
+	/**
+	 * Get a random square emoji.
+	 * @returns {object} - A random food emoji.
+	 */
+	squares: () => squares[Math.floor(Math.random() * squares.length)],
+
+	/**
+	 * Get a random Unicode emoji.
+	 * @returns {string} - A random Unicode emoji.
+	 */
+	unicode: () => unicode[Math.floor(Math.random() * unicode.length)],
+
 
 	/**
 	 * Access various random content endpoints using the SefinekAPI class.
