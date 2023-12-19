@@ -11,7 +11,7 @@ const emojis = {
 	circles: require('./data/emoji/circle.json'),
 	squares: require('./data/emoji/square.json'),
 
-	unicode: require('./data/emoji/collection/single.json')
+	unicode: require('./data/emoji/collection/single.json'),
 };
 
 const endpoints = require('./data/endpoints.json');
@@ -34,7 +34,7 @@ const httpOptions = {
 		'X-Content-Type-Options': 'nosniff',
 		'X-Frame-Options': 'DENY',
 		'X-XSS-Protection': '1; mode=block',
-	}
+	},
 };
 
 /**
@@ -78,7 +78,7 @@ class SefinekAPI {
 
 module.exports = {
 	...Object.fromEntries(Object.entries(emojis).map(([key, value]) => [
-		key, () => value[Math.floor(Math.random() * value.length)]
+		key, () => value[Math.floor(Math.random() * value.length)],
 	])),
 
 	Kaomojis: SefinekAPI,
