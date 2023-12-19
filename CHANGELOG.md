@@ -1,4 +1,18 @@
+## 📥・v2.1.0 (19.12.2023)
+
+### 🎉 Added
+1. New function `<random>.squares` to retrieve random square emojis.
+2. Added a new example (examples/table.js) showcasing the module's functions in a table.
+
+### ✨ Changes
+1. General quality improvements in code.
+2. Improved type definitions `index.d.ts` and enhanced documentation for better clarity and usability.
+3. Enhanced code quality for more efficient GET requests to the API and improved the mechanism for randomizing and importing emojis.
+4. Updated example files in `examples`.
+
+
 ## 📥・v2.0.2/v2.0.3 (08.11.2023)
+
 ### 🎉 Added
 1. `<random>.version`
 
@@ -11,24 +25,31 @@
 ### 🌠 Migration
 1. Changed `new random.kaomojis()` to `new random.Kaomojis()`.
 
+
 ## 📥・v1.4.6 (11.03.2023)
 1. Updated to **v2** release of API.
+
 
 ## 📥・v1.4.5 (09.10.2022)
 1. Fixed URLs.
 
+
 ## 📥・v1.4.4 (02.10.2022)
 1. Fixed URLs.
 
+
 ## 📥・v1.4.3 (19.09.2022)
-1. Small changes in index.d.ts etc.
+1. Small changes in `index.d.ts` etc.
+
 
 ## 📥・v1.4.2 (05.06.2022)
 1. Added typings.
-2. Small fixes in README.md and README_PL.md.
+2. Small fixes in `README.md` and `README_PL.md`.
+
 
 ## 📥・v1.4.1 (02.06.2022)
 1. Small changes.
+
 
 ## 📥・v1.4.0 (15.05.2022)
 1. Added new function `foods()` with random foods.
@@ -36,18 +57,22 @@
 3. Small fixes in README.md.
 4. Added Poland version of README.md file.
 
+
 ## 📥・v1.3.0 (13.05.2022)
 1. Updated README.md file.
 2. Added `new kaomojis()` with random kaomoji from my [API](https://api.sefinek.net). See examples: [[1](https://github.com/sefinek24/random-emoji/blob/main/test.js)] [[2](https://github.com/sefinek24/random-emoji#%EF%B8%8F--kaomojis)]
 3. Other changes to [index.js](https://github.com/sefinek24/random-emoji/blob/main/index.js) file.
+
 
 ## 📥・v1.2.0 (12.05.2022)
 1. Updated CHANGELOG.md, README.md and package.json.
 2. Added new function `circles()` with random circles.
 3. Removed `.slashes`.
 
+
 ## 📥・v1.1.1 (11.05.2022)
 1. Added new function `hearts()` with random hearts.
+
 
 ## 📥・v1.0.1 (08.05.2022)
 1. Added new function `cats()` with random cat emojis.
@@ -57,6 +82,7 @@
     - emoji()
     + emojis()
     ```
+
 
 ## 📥・v0.1.0 (07.05.2022)
 First release.
