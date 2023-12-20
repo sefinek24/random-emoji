@@ -1,7 +1,7 @@
 declare module '@sefinek/random-emoji' {
     /**
-     * Represents an emoji with name, content, and type.
-     * Used for the collection of emojis with more detailed information.
+     * Interface representing an emoji with a name, content, and type.
+     * Used in the emoji collection to provide more detailed information about each emoji.
      */
     export interface EmojisCollection {
         content: string;
@@ -10,7 +10,7 @@ declare module '@sefinek/random-emoji' {
     }
 
     /**
-     * Represents an emoji with name and content.
+     * Interface representing an emoji with a name and content.
      * Used for simpler emoji categories like cats, hearts, etc.
      */
     export interface Emojis {
@@ -19,7 +19,7 @@ declare module '@sefinek/random-emoji' {
     }
 
     /**
-     * Returns a random emoji from a big collection.
+     * Returns a random emoji from a large collection.
      * Each emoji includes its name and type.
      * @returns {EmojisCollection} A random emoji from the collection.
      */
@@ -55,15 +55,16 @@ declare module '@sefinek/random-emoji' {
      */
     export function squares(): Emojis;
 
+
     /**
      * Returns a random Unicode emoji character.
-     * @returns {string} A random Unicode emoji.
+     * @returns {string} A random Unicode emoji character.
      */
     export function unicode(): string;
 
     /**
-     * Represents the response from an API endpoint.
-     * Includes information about the success status, API category, and the response message.
+     * Interface representing the response from an API endpoint.
+     * Includes information about the success status, API category, and response message.
      */
     export interface ApiResponse {
         success: boolean;
