@@ -5,7 +5,7 @@ async function displayEmojiData() {
 	// Get a single random Unicode emoji
 	data.push({ Function: 'unicode()', Emoji: random.unicode().trim() });
 
-	// Retrieves a random emoji with its name, visual representation, and type
+	// Retrieves a random emoji, including its visual representation, name, and category
 	const emoji = random.emojis();
 	data.push({ Function: 'emojis()', Emoji: emoji.content.trim(), Name: emoji.name, Type: emoji.type });
 

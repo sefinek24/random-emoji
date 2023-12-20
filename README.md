@@ -35,7 +35,7 @@ const random = require('@sefinek/random-emoji');
 // 1. A single emoji
 console.log(random.unicode()); // 🥰
 
-// 2. Random emoji with name and type
+// 2. Random emoji along with its visual representation, name, and category
 const emoji = random.emojis();
 console.log(`Emoji: ${emoji.content}; Name: ${emoji.name}; Type: ${emoji.type}`);
 // Emoji: 🐶; Name: Dog Face; Type: animal
