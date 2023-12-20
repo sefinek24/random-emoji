@@ -17,15 +17,15 @@ npm install @sefinek/random-emoji
 
 
 ## 😻 • Usage
-| Function                                                                                                                   | Description                                                |
-|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
-| [unicode](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L4)           | A single emoji                                             |
-| [emojis](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L7)            | Random emoji with name and type                            |
-| [cats](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L11)             | Return random cat                                          |
-| [hearts](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L14)           | Return random heart                                        |
-| [foods](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L18)            | Return random food                                         |
-| [circles](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L22)          | Return random circle                                       |
-| [**new** Kaomojis](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L28) | Return random kaomojis from [API](https://api.sefinek.net) |
+| Function                                                                                                                   | Description                                                 |
+|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------|
+| [unicode](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L4)           | Get a single emoji                                          |
+| [emojis](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L7)            | Get a random emoji with its name and type                   |
+| [cats](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L11)             | Get a random cat                                            |
+| [hearts](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L14)           | Get a random heart                                          |
+| [foods](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L18)            | Get a random food                                           |
+| [circles](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L22)          | Get a random circle                                         |
+| [**new** Kaomojis](https://github.com/sefinek24/random-emoji/blob/f8e6a007717dc5e51adc31b4418bb954e2d364e5/example.js#L28) | Get random kaomojis from the [API](https://api.sefinek.net) |
 
 
 ## 😼 • Examples
