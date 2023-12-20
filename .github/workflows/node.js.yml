@@ -21,5 +21,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Run tests
-        run: npm run test
+      - name: Run main example
+        run: node examples/main.js
+
+      - name: Run table
+        run: node examples/table.js
