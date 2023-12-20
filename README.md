@@ -37,13 +37,13 @@ console.log(random.unicode()); // 🥰
 
 // 2. Random emoji with name and type
 const emoji = random.emojis();
-console.log(`Emoji: ${emoji.content}; Name: ${emoji.name}; Type: ${emoji.type};`);
-// Emoji: 🐶; Name: Dog Face; Type: animal;
+console.log(`Emoji: ${emoji.content}; Name: ${emoji.name}; Type: ${emoji.type}`);
+// Emoji: 🐶; Name: Dog Face; Type: animal
 
 // 3. Random cat
 const cat = random.cats();
-console.log(`Emoji: ${cat.content}; Name: ${cat.name};`);
-// Emoji: 😺; Name: smiley_cat;
+console.log(`Emoji: ${cat.content}; Name: ${cat.name}`);
+// Emoji: 😺; Name: smiley_cat
 ```
 
 
