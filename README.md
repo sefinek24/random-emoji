@@ -75,9 +75,11 @@ kaomoji.love().then(console.log);
 {
   "success": true,
   "status": 200,
-  "category": "kaomoji",
-  "endpoint": "uwu",
-  "message": "🅤🅦🅤"
+  "info": {
+    "category": "kaomoji",
+    "endpoint": "uwu"
+  },
+  "message": "ＵｗＵ"
 }
 ```
 
