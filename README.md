@@ -65,9 +65,9 @@ const random = require('@sefinek/random-emoji');
 const random = require('@sefinek/random-emoji');
 const kaomoji = new random.Kaomojis();
 
-kaomoji.love().then(data => console.log(data));
+kaomoji.uwu().then(data => console.log(data));
 // or shorter
-kaomoji.love().then(console.log);
+kaomoji.uwu().then(console.log);
 ```
 
 ### » The returned object from [API](https://api.sefinek.net)
