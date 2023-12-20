@@ -1,4 +1,4 @@
-## 📥・v2.1.0 (19.12.2023)
+## 📥・v2.1.0 (20.12.2023)
 
 ### 🎉 Added
 1. New function `<random>.squares` to retrieve random square emojis.
