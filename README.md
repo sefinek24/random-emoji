@@ -85,13 +85,13 @@ kaomoji.uwu().then(console.log);
 
 
 ### » Kaomoji endpoints
-| Function | Link to the API                                           | Example   |
-|----------|:----------------------------------------------------------|-----------|
-| `cat()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/cat)  | (=^-ω-^=) |
-| `dog()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/dog)  | ଘ(∪・ﻌ・∪)ଓ |
-| `owo()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/owo)  | 𝓞𝔀𝓞    |
-| `uwu()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/uwu)  | 𝕌𝕨𝕌    |
-| `love()` | [Click here](https://api.sefinek.net/api/v2/kaomoji/love) | ヽ(♡‿♡)ノ   |
+| Function | Link to the API                                           | Version | Example   |
+|----------|:----------------------------------------------------------|:--------|-----------|
+| `cat()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/cat)  | v2      | (=^-ω-^=) |
+| `dog()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/dog)  | v2      | ଘ(∪・ﻌ・∪)ଓ |
+| `owo()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/owo)  | v2      | 𝓞𝔀𝓞    |
+| `uwu()`  | [Click here](https://api.sefinek.net/api/v2/kaomoji/uwu)  | v2      | 𝕌𝕨𝕌    |
+| `love()` | [Click here](https://api.sefinek.net/api/v2/kaomoji/love) | v2      | ヽ(♡‿♡)ノ   |
 
     
 ## 📝 • Changelog
