@@ -13,7 +13,6 @@ const { version } = require('./package.json');
 
 const httpOptions = {
 	method: 'GET',
-	port: 443,
 	headers: {
 		'User-Agent': `Mozilla/5.0 (compatible; random-emoji/${version}; +https://github.com/sefinek24/random-emoji)`,
 		'Accept': 'application/json',
