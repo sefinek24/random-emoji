@@ -85,13 +85,13 @@ kaomoji.uwu().then(console.log);
 
 
 ### » Kaomoji endpoints
-| Function                                            | Example   |
-|-----------------------------------------------------|-----------|
-| [cat](https://api.sefinek.net/api/v2/kaomoji/cat)   | (=^-ω-^=) |
-| [dog](https://api.sefinek.net/api/v2/kaomoji/dog)   | ଘ(∪・ﻌ・∪)ଓ |
-| [owo](https://api.sefinek.net/api/v2/kaomoji/owo)   | 𝓞𝔀𝓞    |
-| [uwu](https://api.sefinek.net/api/v2/kaomoji/uwu)   | 𝕌𝕨𝕌    |
-| [love](https://api.sefinek.net/api/v2/kaomoji/love) | ヽ(♡‿♡)ノ   |
+| Function | URL                                                  | Example   |
+|----------|:-----------------------------------------------------|-----------|
+| `cat()`  | [Click](https://api.sefinek.net/api/v2/kaomoji/cat)  | (=^-ω-^=) |
+| `dog()`  | [Click](https://api.sefinek.net/api/v2/kaomoji/dog)  | ଘ(∪・ﻌ・∪)ଓ |
+| `owo()`  | [Click](https://api.sefinek.net/api/v2/kaomoji/owo)  | 𝓞𝔀𝓞    |
+| `uwu()`  | [Click](https://api.sefinek.net/api/v2/kaomoji/uwu)  | 𝕌𝕨𝕌    |
+| `love()` | [Click](https://api.sefinek.net/api/v2/kaomoji/love) | ヽ(♡‿♡)ノ   |
 
     
 ## 📝 • Changelog
