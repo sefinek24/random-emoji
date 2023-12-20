@@ -56,7 +56,7 @@ const random = require('@sefinek/random-emoji');
     const kaomoji = new random.Kaomojis();
 
     const uwu = await kaomoji.uwu();
-    console.log(`Random UwU: ${uwu.message}`);
+    console.log('Random UwU:', uwu.message);
 })();
 ```
 
