@@ -85,7 +85,7 @@ kaomoji.uwu().then(console.log);
 
 
 ### » Kaomoji endpoints
-| Function | URL                                                  | Example   |
+| Function | Link to the API                                      | Example   |
 |----------|:-----------------------------------------------------|-----------|
 | `cat()`  | [Click](https://api.sefinek.net/api/v2/kaomoji/cat)  | (=^-ω-^=) |
 | `dog()`  | [Click](https://api.sefinek.net/api/v2/kaomoji/dog)  | ଘ(∪・ﻌ・∪)ଓ |
