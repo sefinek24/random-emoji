@@ -1,14 +1,14 @@
 ## 📥・v2.1.0 (20.12.2023)
 
 ### 🎉 Added
-1. New function `<random>.squares` to retrieve random square emojis.
-2. Added a new example ([examples/table.js](examples/table.js)) showcasing the module's functions in a table.
+1. New function `<random>.squares` for retrieving random squares.
+2. Added a new example ([examples/table.js](examples/table.js)) demonstrating the use of module functions in a table format.
 
 ### ✨ Changes
-1. General quality improvements in code.
-2. Improved type definitions [`index.d.ts`](index.d.ts) and enhanced documentation for better clarity and usability.
-3. Enhanced code quality for more efficient GET requests to the API and improved the mechanism for randomizing and importing emojis.
-4. Updated example files in [`examples`](examples).
+1. General code quality improvements.
+2. Enhanced type definitions in [`index.d.ts`](index.d.ts) and expanded documentation.
+3. Improved the emoji randomization mechanism.
+4. Updated example files in the [`examples`](examples) directory.
 
 
 ## 📥・v2.0.2/v2.0.3 (08.11.2023)
