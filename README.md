@@ -33,18 +33,17 @@ npm install @sefinek/random-emoji
 const random = require('@sefinek/random-emoji');
 
 // 1. A single emoji
-console.log(random.unicode());
-// Output: 🥰
+console.log(random.unicode()); // 🥰
 
 // 2. Random emoji with name and type
 const emoji = random.emojis();
-console.log(`Name: ${emoji.name}; Emoji: ${emoji.content};`);
-// Output: Name: jack-o-lantern; Emoji: 🎃;
+console.log(`Emoji: ${emoji.content}; Name: ${emoji.name}; Type: ${emoji.type};`);
+// 🐶; Name: Dog Face; Type: animal;
 
 // 3. Random cat
 const cat = random.cats();
-console.log(`Name: ${cat.name}; Emoji: ${cat.content};`);
-// Output: Name: smiley_cat; Emoji: 😺;
+console.log(`Emoji: ${cat.content}; Name: ${cat.name};`);
+// Emoji: 😺; Name: smiley_cat;
 ```
 
 
