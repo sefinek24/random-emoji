@@ -109,4 +109,4 @@ Your support helps me continue to develop this project and provide new and fun e
 
 
 ## 🎓 • [MIT License](LICENSE)
-Copyright 2023 © by [Sefinek](https://sefinek.net). All Rights Reserved.
+Copyright 2022-2024 © by [Sefinek](https://sefinek.net). All Rights Reserved.
